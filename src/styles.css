@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .poster_img {
+    height: 300px;
+    width: 200px;
+    box-shadow: 7px 7px 10px rgb(90, 90, 90);
+  }
+  
+.movieform{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    list-style-type: none;
+}
+
+.list{
+  display: flex;
+  padding : .6em;
+}
+
+.list label{
+  padding:0em 0em 0em 30em;
+}
+
+.text-area{
+  display:flex;
+  padding-bottom: .5em;
+}
+
+.text-area label{
+  padding:.5em 0em 1em 30.5em;
+}
+
+.submit-button{
+  padding-left:16cm;
+  padding-bottom: .5em;
+}
+
