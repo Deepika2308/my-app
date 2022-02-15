@@ -1,40 +1,16 @@
 .App {
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .poster_img {
-    height: 300px;
-    width: 200px;
-    box-shadow: 7px 7px 10px rgb(90, 90, 90);
-  }
-  
-.movieform{
-    background-color: whitesmoke;
-    border-radius: 3px;
-    list-style-type: none;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
 }
-
-.list{
-  display: flex;
-  padding : .6em;
+.App ul li {
+  list-style: none;
 }
-
-.list label{
-  padding:0em 0em 0em 30em;
+.App ul li button {
+  padding: 0.5em 2.5em;
+  font-size: 1.05em;
+  margin: 0.35em 0;
 }
-
-.text-area{
-  display:flex;
-  padding-bottom: .5em;
+.App ul li button:hover {
+  cursor: pointer;
 }
-
-.text-area label{
-  padding:.5em 0em 1em 30.5em;
-}
-
-.submit-button{
-  padding-left:16cm;
-  padding-bottom: .5em;
-}
-
